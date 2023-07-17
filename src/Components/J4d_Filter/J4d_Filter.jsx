@@ -102,7 +102,7 @@ function J4d_Filter(){
   </div>
 </div>
 <div className='J4d_filter_headsection_sort'> Sort <br/>
- <select name="sort" >
+ <select name='sort' >
           <option value="option0">  Relevance </option>
           <hr/>
           <option value="option1">Highest Paid First</option>
@@ -112,30 +112,32 @@ function J4d_Filter(){
   </select>
 </div>
 <div className='J4d_filter_headsection_Extras'> Package Extras <br/>
-<div><input
+<div className='J4d_filter_headsection_Extras_prefences' >
+<div className='J4d_filter_headsection_Extras_1' ><input
           type="checkbox" />
        <label> Bonus Pay </label>
     </div>
-    <div>
+    <div className='J4d_filter_headsection_Extras_1'>
       <input
           type="checkbox" />
        <label>Stocks/ESOPS </label> </div>
-      <div> <input
+      <div className='J4d_filter_headsection_Extras_1'>  <input
           type="checkbox" />
        <label> WFH Benefits </label>
        </div>
-       <div> <input
+       <div className='J4d_filter_headsection_Extras_1'> <input
           type="checkbox" />
        <label> Additional Perks </label>
        </div>
 </div>
- <div className='J4d_filter_headsection_Extras_prefrences'> Extra Prefrences <br/>
- <div><input
+</div>
+ <div className='J4d_filter_headsection_Extras_prefrences_1'> Extra Prefrences <br/>
+ <div className='J4d_filter_headsection_Extras_prefrences_text' ><input
           type="checkbox" />
        <label> Women Only Jobs </label>
     </div>
  </div>
-    </div>
+</div>
     );
 }
 export default J4d_Filter;
