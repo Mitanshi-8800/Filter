@@ -43,7 +43,7 @@ body{
   box-sizing: border-box;
 }
 .j4d_filter{
-  margin-left: 130px;
+  margin-left: 23vh;
   background-color: #06283D;
   width: 27%;
   height:100%;
@@ -52,23 +52,23 @@ body{
   border-radius: 16px;
   display: flex;
   flex-direction:column;
-  margin-top: 59px;
+  margin-top: 11vh;
   .j4d_filter_headsection{
     display: flex;
     flex-direction:row ;
     h3{
-    margin-top: 29px;
-    margin-left:37px;
+    margin-top: 5.8vh;
+    margin-left:5vh;
     color: #FFF9F3;
     font-family: Poppins;
-    font-size: 26px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.1vh;
   }
   p{
-    margin-top:36px;
+    margin-top:6.8vh;
     margin-left:25vh;
     color: rgba(209, 209, 209, 0.79);
     font-family: Poppins;
@@ -83,28 +83,28 @@ body{
     text-align: left;
     color: #FFF;
     font-family: Poppins;
-    font-size: 1.25rem;  /* 20px / 16px = 1.25rem */
+    font-size: 1.25rem;  
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    letter-spacing: 0.0125rem;  /* 0.2px / 16px = 0.0125rem */
-    margin-left: 4.625vh;
+    letter-spacing: 0.0125rem;  
+    margin-left: 5vh;
      input{
       background-repeat: no-repeat;
-      width: 330.201px;
-      height: 30px;
+      width: 85%;
+      height: 4vh;
       flex-shrink: 0;
       border: 2px solid #F6FDFF;
       border-radius: 4px;
       margin-top: 1.10vh;
       color:#06283D ;
-      font-size: 2vh;
+      font-size:1rem;
       cursor: pointer;
       
      }
   }
   .J4d_filter_headsection_location{
-    margin-top: 20px;
+    margin-top: 2.5vh;
     text-align: left;
     color: #FFF;
     font-family: Poppins;
@@ -117,19 +117,19 @@ body{
      select{
       margin-top: 1.10vh;
       background-repeat: no-repeat;
-      width: 340.201px;
-      height: 35px;
+      width: 88%;
+      height: 5.2vh;
       flex-shrink: 0;
       border: 2px solid rgb(253, 253, 253);
       border-radius: 4px;
       color:#454545 ;
-      font-size: 2vh;
+      font-size: 1rem;
       cursor: pointer;
 
      }
   }
   .J4d_filter_headsection_availablity{
-    margin-top: 20px;
+    margin-top: 2.5vh;
     text-align: left;
     color: #FFF;
     font-family: Poppins;
@@ -141,12 +141,23 @@ body{
     margin-left:4.625vh;
     .J4d_filter_headsection_availablity_section{
       display: flex;
-      flex-direction: row;
+      
     
       .J4d_filter_headsection_availablity_section_1{
         display: flex;
         flex-direction:column;
-        margin-right: 8vh;
+        margin-top: 1.10vh;
+        .J4d_filter_headsection_availablity_section_1_checkbox{
+          display: flex;
+          margin-right: 3vh;
+          margin-bottom:0.7vh ;
+}
+.J4d_filter_headsection_availablity_section_1_checkbox_{
+          display: flex;
+          margin-right: 3vh;
+          margin-bottom:0.7vh ;
+}
+      
         
       label{
         color: rgba(209, 209, 209, 0.79);
@@ -157,24 +168,14 @@ body{
         line-height: normal;
        
       }
-      input{
-        width: 25px;
-        height: 25px;
-        flex-shrink: 0;
-        border: 2px solid rgb(253, 253, 253);
-        border-radius: 6px;
-        color:#454545 ;
-        font-size: 2vh;
-        cursor: pointer;
-       
-      }
+      
       }
       
     }
 
   }
   .J4d_filter_headsection_mode{
-    margin-top: 20px;
+    margin-top: 2.5vh;
     text-align: left;
     color: #FFF;
     font-family: Poppins;
@@ -187,19 +188,19 @@ body{
     select{
       margin-top: 1.10vh;
       background-repeat: no-repeat;
-      width: 344.201px;
-      height: 35px;
+      width: 88%;
+      height: 5.2vh;
       flex-shrink: 0;
       border: 2px solid rgb(253, 253, 253);
       border-radius: 4px;
       color:#454545;
-      font-size: 2vh;
+      font-size: 1rem;
       cursor: pointer;
       
 }
   }
   .J4d_filter_headsection_jobs{
-    margin-top: 20px;
+    margin-top: 2.5vh;
     text-align: left;
     color: #FFF;
     font-family: Poppins;
@@ -224,20 +225,20 @@ body{
           font-weight: 500;
           line-height: normal;
           flex-shrink: 0;
-          margin-top: 10px;
+          margin-top: 1.30vh;
           margin-left: 1vh;
      }
         input{
-          margin-top: 10px;
-          width: 25px;
-          height: 25px;
+          margin-top: 1.30vh;
+          width: 3.70vh;
+          height: 3.26vh;
           flex-shrink: 0;
         }
       }
     }
   }
   .J4d_filter_headsection_sort{
-    margin-top: 20px;
+    margin-top: 2.5vh;
     text-align: left;
     color: #FFF;
     font-family: Poppins;
@@ -250,15 +251,13 @@ body{
      select{
       margin-top: 1.10vh;
       background-repeat: no-repeat;
-     
-      width: 246px;
-      height: 42vh;
-      height: 35px;
+      width: 65%;
+      height: 5vh;
       flex-shrink: 0;
       border: 2px solid rgb(253, 253, 253);
       border-radius: 4px;
       color:#454545;
-      font-size: 2vh;
+      font-size: 1rem;
       cursor: pointer;
     }
   }
@@ -273,10 +272,33 @@ body{
     line-height: normal;
     letter-spacing: 0.0125rem;
     margin-left:4.625vh;
+    .J4d_filter_headsection_Extras_package{
+      display: flex;
+      flex-direction:row;
+      margin-top: 1.10vh;
+      .J4d_filter_headsection_availablity_section_1_checkbox{
+        display: flex;
+        margin-right: 3vh;
+        padding-top: 5vh;
+      
+}
+label{
+      color: rgba(209, 209, 209, 0.79);
+      font-family: Poppins;
+      font-size: 1rem;
+      font-style: italic;
+      font-weight: 500;
+      line-height: normal;
+     
+    }
+    
+    }
+    
     input{
       width: 2.5vh;
-      height: 25px;
+      height: 2vh;
       flex-shrink: 0;
+     
       
     }
     label{
@@ -323,6 +345,84 @@ body{
       line-height: normal;
     }
   
+  }
+  .J4d_filter_headsection_jobs_salary{
+    text-align: left;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.01rem;
+    margin-left: 4.625vh;
+    h2{
+      color: #FFF;
+      font-family: Poppins;
+      font-size: 1.600rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.2px;
+    }
+    p{
+      color: #FFF;
+      font-family: Poppins;
+      font-size: 1.2rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.16px;
+     
+}
+
+  }
+  .J4d_filter_headsection_jobs_salary_input{
+    width: 100%;
+    display: flex;
+    
+     .field{
+      width: 100%;
+      height: 2vh ;
+      display: flex;
+     }
+  }
+  .j4d_salary{
+    text-align: left;
+    margin-left: 4.625vh;
+  }
+  
+  .range_text{
+    text-align: left;
+    margin-left: 4.625vh;
+  }
+  
+  
+  
+  .j4d_filter_salary_range{
+      width: 90%;
+      text-align: center;
+      display: inline-block;
+      display: flex;
+      flex-direction: row;
+  }
+  
+  .j4d_filter_salary_range_min{
+    width: 13%;
+    height: 100%;
+    
+  }
+  
+  .j4d_filter_salary_range_max{
+    width: 13%;
+    height: 100%;
+    margin-left: 5vh;
+  }
+  
+  .j4d_filter_salary_range_bar{
+      width: 50%;
+      height: 100%;
+      margin-left: 4vh;
   }
   }
 
